@@ -1,0 +1,25 @@
+#    apptest
+#    an airplug compatible program
+#    author: Bertrand Ducourthial AT utc.fr, Anthony Buisset (v0.1)
+#    license type: free of charge license for academic and research purpose
+#    see license.txt
+###############################################################################
+
+# Mnemonique pour le header APPTEST, contenant le nom de l'application qui a emis
+# le message transporte.
+set APPTEST_rc_mnemoapp "appapptest"
+
+set APPTEST_rc_mnemoapp "approu"
+
+#Create the default routing table
+list ROU_rc_routingTable {$::APP $::APP 0}
+
+set APPTEST_rc_mnemoTypeMessage "routage"
+
+set APPTEST_rc_mnemoDestNode "DestNode"
+
+set APPTEST_rc_mnemoDestApp "DestApp"
+
+set APPTEST_rc_mnemoNextHope "NextHope"
+
+set APPTEST_rc_mnemoTableRoutage "TableRoutage"
